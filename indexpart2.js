@@ -18,9 +18,9 @@ function newItem(url, left, bottom){
     })
 }
 
-let inventory = document.createElement('div')
 
 function newInventory(){
+    let inventory = document.createElement('div')
     inventory.style.position = 'fixed'
     inventory.style.bottom = '0px';
     inventory.style.left = '0px'
@@ -33,9 +33,10 @@ function newInventory(){
     inventory.style.border = '2px solid black'
     inventory.style.backgroundColor = 'brown'
     document.body.append(inventory)
+    return inventory
 }
+const inventory = newInventory()
 
-newInventory()
 newImage('assets/green-character.gif', 100, 250)
 newImage('assets/tree.png', 200, 450)
 newImage('assets/pillar.png', 350, 250)
