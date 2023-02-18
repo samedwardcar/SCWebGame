@@ -50,7 +50,6 @@ let heightOfGrass = horizon
 
 tile('assets/sky.png', 0, horizon, window.innerWidth/100, heightOfSky/100)
 tile('assets/grass.png', 0, 0, window.innerWidth/100, heightOfGrass/100)
-const inventory = newInventory()
 
 newImage('assets/green-character.gif', 100, 250)
 newImage('assets/tree.png', 200, 450)
@@ -62,3 +61,5 @@ newImage('assets/well.png', 500, 575)
 newItem('assets/sword.png', 500, 555)
 newItem('assets/shield.png', 165, 335)
 newItem('assets/staff.png', 600, 250)
+
+const inventory = newInventory()
