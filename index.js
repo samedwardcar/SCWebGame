@@ -94,9 +94,8 @@ function move(element){
 
 // tile('assets/sky.png', 0, horizon, window.innerWidth/100, heightOfSky/100)
 // tile('assets/grass.png', 0, 0, window.innerWidth/100, heightOfGrass/100)
-const inventory = newInventory()
 
-move(inventory).to(0, 0)
+move(newInventory()).to(0, 0)
 move(newImage('assets/green-character.gif')).to(100, 250)
 move(newImage('assets/tree.png')).to(200, 450)
 move(newImage('assets/pillar.png')).to(350, 250)
@@ -106,3 +105,4 @@ move(newImage('assets/well.png')).to(500, 575)
 move(newItem('assets/sword.png')).to(500, 555)
 move(newItem('assets/shield.png')).to(165, 335)
 move(newItem('assets/staff.png')).to(600, 250)
+// const inventory = newInventory()
