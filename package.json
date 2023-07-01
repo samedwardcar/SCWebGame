@@ -6,11 +6,5 @@
   "scripts": {
     "start": "live-server --port=5000",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "",
-  "dependencies": {
-    "live-server": "^1.1.0",
-    "punnett-square": "^2.1.0"
   }
 }

@@ -18,7 +18,6 @@ function newItem(url, left, bottom){
     })
 }
 
-
 function newInventory(){
     let inventory = document.createElement('div')
     inventory.style.position = 'fixed'
